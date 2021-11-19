@@ -1,1 +1,9 @@
-
+{
+  "name" : "Octo Organisation workflow",
+  "description" : "Octo organisation CI workflow",
+  "icon-name" : "example-icon",
+  "categories" : [
+    "GO"
+  ]
+  
+}

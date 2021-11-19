@@ -1,1 +1,12 @@
-
+name : Octo Organisation CI
+on : 
+  push :
+    branches : [ $default-branch ]
+  pull_request : [ $default-branch ]
+job : 
+  build : 
+    runs_on : unbuntu-latest
+    steps : 
+      - uses : actions/checkout@v2
+      -name : Run a online-script
+       run : echo Hello From Octo Organisation
